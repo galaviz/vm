@@ -19,7 +19,8 @@ development:
   encoding: unicode
   database: verdemonarcaonrails_development
   pool: 5
-  password: 
+  username: prueba
+  password: prueba
   host: localhost
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,11 +49,13 @@ test:
   encoding: unicode
   database: verdemonarcaonrails_test
   pool: 5
-  password: 
+  username: prueba
+  password: prueba 
 
 production:
   adapter: postgresql
   encoding: unicode
   database: verdemonarcaonrails_production
   pool: 5
-  password: 
+  username: prueba
+  password: prueba 
