@@ -8,7 +8,7 @@ class LoadStoreItems < ActiveRecord::Migration
     item.vida = "25,000 hrs"
     item.precio = 129.61
     item.image_url = "http://www.energyfederation.org/common/images/productfamilies/small/s_8536.jpg"
-    item.disponibilida"d = "14 - Enero - 2015"
+    item.disponibilida = "14 - Enero - 2015"
     item.description = "La lámpara LED Cree de 6 watts provee 450 lúmenes de iluminación de energía eficiente (75 lm/w), lo cual equivale generalmente a la cantidad de luz producida por una lámpara incandescente de 40 watts o una lámpara de 9 watts de luz fluorescente compacta (CFL). Las 25,000 horas de vida eliminan la necesidad de sustituir lámparas de manera repetida (las lámparas incandescentes usualmente duran 800 a 1,000 horas, mientras las CFLs duran 6,000-10,000 horas). Esta luz LED de alta eficiencia no contiene mercurio, no emite luz UV/IR, no oscurece los colores y provee una fuente difusa de luz pareja. Este LED regulable es compatible con la mayoría de los reguladores y, adicionalmente, es muy costo-efectivo con los apagadores. Esta lámpara es omnidireccional, refiriéndose a que la luz será proyectada en todas las direcciones."
     item.brand_image_url = "https://www.kiwilighting.com/media/catalog/category/Cree-LED-logo_1.jpg"
     item.save()
