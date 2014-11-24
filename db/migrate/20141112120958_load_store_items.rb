@@ -1,4 +1,3 @@
-#encoding: utf-8
 class LoadStoreItems < ActiveRecord::Migration
   def up
     item = Item.new

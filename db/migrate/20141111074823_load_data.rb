@@ -1,4 +1,3 @@
-#encoding: utf-8
 class LoadData < ActiveRecord::Migration
   def up
     exampleUser =  User.new(:nombre => "Patricio", :apellido => "Gonzalez", :email => "admin@verdemonarca.com", :is_residential => false, :consumo_total => 745640, :importe_total => 1328240.78)
