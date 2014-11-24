@@ -27,12 +27,12 @@ ActiveRecord::Schema.define(version: 20141112135510) do
     t.string   "disponibilidad"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
+
 
   create_table "projects", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
+
 
   create_table "users", force: true do |t|
     t.string   "email"
