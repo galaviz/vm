@@ -48,7 +48,7 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'thin'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
