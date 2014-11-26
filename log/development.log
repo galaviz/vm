@@ -402,3 +402,1337 @@ Migrating to LoadData (20141111074823)
 Migrating to LoadData (20141111074823)
   [1m[35m (1.0ms)[0m  BEGIN
   [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 10:59:13 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (183.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__122878391__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1168.1ms)
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (57.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (4.0ms)[0m  [1mROLLBACK[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 14:37:02 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (58.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__378767576__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (323.0ms)
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (261.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (118.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20141103061916)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (146.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255), "hashed_password" character varying(255), "salt" character varying(255), "is_residential" boolean, "empresa" character varying(255), "nombre" character varying(255), "apellido" character varying(255), "telefono" character varying(255), "celular" character varying(255), "estado" character varying(255), "municipio" character varying(255), "calle" character varying(255), "numero_direccion" integer, "colonia" character varying(255), "codigo_postal" character varying(255), "rpu" character varying(255), "tarifa" character varying(255), "cargo_fijo" float, "energia" float, "consumo_total" float, "importe_total" float, "total_a_pagar" float, "tipo_membresia" character varying(255), "hora_visita" character varying(255), "fecha_visita" character varying(255), "forma_pago" character varying(255), "clave_referencia" character varying(255), "stripe_id" character varying(255), "puntos_vm" integer, "creditos_vm" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141103061916"]]
+  [1m[36m (37.0ms)[0m  [1mCOMMIT[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (2.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+  [1m[36m (2.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 16:46:21 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__528242556__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (323.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2014-11-24 16:46:29 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__528242556__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (203.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (3.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (2.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 19:17:03 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (51.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__615667802__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (335.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 19:17:08 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (2.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__615667802__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (268.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-24 23:33:18 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (125.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__481060370__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (408.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (78.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 09:58:27 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (121.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__673950143__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (291.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 09:58:32 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (2.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.0) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.0) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__673950143__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (236.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (2.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+  [1m[36mActiveRecord::SchemaMigration Load (40.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (2.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (31.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (16.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (2.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (232.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (16.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (20.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (358.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (132.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20141103061916)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (399.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255), "hashed_password" character varying(255), "salt" character varying(255), "is_residential" boolean, "empresa" character varying(255), "nombre" character varying(255), "apellido" character varying(255), "telefono" character varying(255), "celular" character varying(255), "estado" character varying(255), "municipio" character varying(255), "calle" character varying(255), "numero_direccion" integer, "colonia" character varying(255), "codigo_postal" character varying(255), "rpu" character varying(255), "tarifa" character varying(255), "cargo_fijo" float, "energia" float, "consumo_total" float, "importe_total" float, "total_a_pagar" float, "tipo_membresia" character varying(255), "hora_visita" character varying(255), "fecha_visita" character varying(255), "forma_pago" character varying(255), "clave_referencia" character varying(255), "stripe_id" character varying(255), "puntos_vm" integer, "creditos_vm" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141103061916"]]
+  [1m[36m (32.0ms)[0m  [1mCOMMIT[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (18.0ms)[0m  [1mDROP DATABASE IF EXISTS "verdemonarcaonrails_test"[0m
+  [1m[35m (19.0ms)[0m  CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+PG::InsufficientPrivilege: ERROR:  se ha denegado el permiso para crear la base de datos
+: CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+  [1m[36m (1.0ms)[0m  [1mDROP DATABASE IF EXISTS "verdemonarcaonrails_test"[0m
+  [1m[35m (2.0ms)[0m  CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+PG::InsufficientPrivilege: ERROR:  se ha denegado el permiso para crear la base de datos
+: CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+  [1m[36m (0.0ms)[0m  [1mDROP DATABASE IF EXISTS "verdemonarcaonrails_test"[0m
+  [1m[35m (4.0ms)[0m  CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+PG::InsufficientPrivilege: ERROR:  se ha denegado el permiso para crear la base de datos
+: CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+  [1m[36m (1.0ms)[0m  [1mDROP DATABASE IF EXISTS "verdemonarcaonrails_test"[0m
+  [1m[35m (93.0ms)[0m  CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+PG::InsufficientPrivilege: ERROR:  se ha denegado el permiso para crear la base de datos
+: CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+  [1m[36mActiveRecord::SchemaMigration Load (26.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (40.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mDROP DATABASE IF EXISTS "verdemonarcaonrails_test"[0m
+  [1m[35m (21407.2ms)[0m  CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+  [1m[36m (2.0ms)[0m  [1mSELECT version FROM schema_migrations[0m
+  [1m[36m (2381.1ms)[0m  [1mDROP DATABASE IF EXISTS "verdemonarcaonrails_development"[0m
+  [1m[35m (5149.3ms)[0m  DROP DATABASE IF EXISTS "verdemonarcaonrails_test"
+PG::ObjectInUse: ERROR:  la base de datos «verdemonarcaonrails_test» está siendo utilizada por otros usuarios
+DETAIL:  Hay 1 otra sesión usando la base de datos.
+: DROP DATABASE IF EXISTS "verdemonarcaonrails_test"
+  [1m[36m (13172.8ms)[0m  [1mCREATE DATABASE "verdemonarcaonrails_development" ENCODING = 'unicode'[0m
+  [1m[35m (4.0ms)[0m  CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+PG::DuplicateDatabase: ERROR:  la base de datos «verdemonarcaonrails_test» ya existe
+: CREATE DATABASE "verdemonarcaonrails_test" ENCODING = 'unicode'
+  [1m[36mSQL (26.0ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (181.0ms)[0m  CREATE TABLE "items" ("id" serial primary key, "name" character varying(255), "description" text, "image_url" text, "brand_image_url" character varying(255), "watts" float, "lumenes" character varying(255), "precio" float, "vida" character varying(255), "disponibilidad" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (91.0ms)[0m  [1mCREATE TABLE "projects" ("id" serial primary key, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (123.0ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying(255), "hashed_password" character varying(255), "salt" character varying(255), "is_residential" boolean, "empresa" character varying(255), "nombre" character varying(255), "apellido" character varying(255), "telefono" character varying(255), "celular" character varying(255), "estado" character varying(255), "municipio" character varying(255), "calle" character varying(255), "numero_direccion" integer, "colonia" character varying(255), "codigo_postal" character varying(255), "rpu" character varying(255), "tarifa" character varying(255), "cargo_fijo" float, "energia" float, "consumo_total" float, "importe_total" float, "total_a_pagar" float, "tipo_membresia" character varying(255), "hora_visita" character varying(255), "fecha_visita" character varying(255), "forma_pago" character varying(255), "clave_referencia" character varying(255), "stripe_id" character varying(255), "puntos_vm" integer, "creditos_vm" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (4.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (59.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (2.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (2.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141112135510')
+  [1m[36m (2.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141103061916')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141111074823')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141112120214')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141112120958')
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:37:57 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered main/index.html.erb within layouts/application (2334.1ms)
+Completed 200 OK in 2686ms (Views: 2617.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:04 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:04 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:05 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:06 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:06 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:06 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:06 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-25 11:38:06 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-25 11:38:06 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-25 11:38:07 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-25 11:38:07 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-25 11:38:07 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-25 11:38:07 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-25 11:38:08 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-25 11:38:08 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-25 11:38:08 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-25 11:38:08 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-25 11:38:08 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-25 11:38:09 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-25 11:38:09 -0600
+
+
+Started GET "/registration/begin_registration" for 127.0.0.1 at 2014-11-25 11:40:04 -0600
+Processing by RegistrationController#begin_registration as HTML
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-25 11:40:04 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 26ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (82.0ms)
+
+
+Started GET "/registration/tipo_de_cliente" for 127.0.0.1 at 2014-11-25 11:40:13 -0600
+Processing by RegistrationController#tipo_de_cliente as HTML
+  Rendered registration/tipo_de_cliente.html.erb within layouts/registration (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (57.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (72.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (132.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (220.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (33.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 2375ms (Views: 2374.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:17 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/axfont.ttf" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-25 11:40:18 -0600
+
+
+Started GET "/registration/assets/img/favicon.png" for 127.0.0.1 at 2014-11-25 11:40:19 -0600
+
+ActionController::RoutingError (No route matches [GET] "/registration/assets/img/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (196.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (489.0ms)
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-25 11:40:25 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-25 11:40:25 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (86.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 11:52:12 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered main/index.html.erb within layouts/application (1355.1ms)
+Completed 200 OK in 1705ms (Views: 1623.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:17 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:17 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:17 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-25 11:52:17 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-25 11:52:17 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-25 11:52:17 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-25 11:52:18 -0600
+
+
+Started GET "/registration/tipo_de_cliente" for 127.0.0.1 at 2014-11-25 11:52:20 -0600
+Processing by RegistrationController#tipo_de_cliente as HTML
+  Rendered registration/tipo_de_cliente.html.erb within layouts/registration (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (55.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (11.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (9.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (9.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (10.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 1654ms (Views: 1652.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:22 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/axfont.ttf" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-25 11:52:23 -0600
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-25 11:52:36 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-25 11:52:36 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 36ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (82.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-25 17:38:31 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (707.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered main/index.html.erb within layouts/application (2222.1ms)
+Completed 200 OK in 2855ms (Views: 2790.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:46 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:46 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:47 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-25 17:38:48 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-25 17:38:49 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-25 17:38:49 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-25 17:38:49 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-25 17:38:49 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-25 17:38:49 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-25 17:38:49 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-25 17:38:50 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-25 17:38:50 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-25 17:38:50 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-25 17:38:50 -0600
+
+
+Started GET "/registration/tipo_de_cliente" for 127.0.0.1 at 2014-11-25 17:39:28 -0600
+Processing by RegistrationController#tipo_de_cliente as HTML
+  Rendered registration/tipo_de_cliente.html.erb within layouts/registration (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (30.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (19.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (23.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (8.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (9.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 1398ms (Views: 1395.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:30 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:31 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/axfont.ttf" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-25 17:39:32 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-25 17:39:33 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-25 17:39:33 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-25 17:39:33 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-25 17:39:33 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-25 17:39:33 -0600
+
+
+Started GET "/registration/assets/img/favicon.png" for 127.0.0.1 at 2014-11-25 17:39:33 -0600
+
+ActionController::RoutingError (No route matches [GET] "/registration/assets/img/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (92.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (514.0ms)
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-25 17:39:45 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-25 17:39:45 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 72ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (90.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-26 11:00:30 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (108.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered main/index.html.erb within layouts/application (1618.1ms)
+Completed 200 OK in 1967ms (Views: 1866.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:38 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:38 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:39 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-26 11:00:40 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-26 11:00:41 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-26 11:00:42 -0600
