@@ -1,0 +1,11 @@
+  [1m[36m (84.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (69.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20141103061916)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (219.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255), "hashed_password" character varying(255), "salt" character varying(255), "is_residential" boolean, "empresa" character varying(255), "nombre" character varying(255), "apellido" character varying(255), "telefono" character varying(255), "celular" character varying(255), "estado" character varying(255), "municipio" character varying(255), "calle" character varying(255), "numero_direccion" integer, "colonia" character varying(255), "codigo_postal" character varying(255), "rpu" character varying(255), "tarifa" character varying(255), "cargo_fijo" float, "energia" float, "consumo_total" float, "importe_total" float, "total_a_pagar" float, "tipo_membresia" character varying(255), "hora_visita" character varying(255), "fecha_visita" character varying(255), "forma_pago" character varying(255), "clave_referencia" character varying(255), "stripe_id" character varying(255), "puntos_vm" integer, "creditos_vm" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141103061916"]]
+  [1m[36m (34.0ms)[0m  [1mCOMMIT[0m
+Migrating to LoadData (20141111074823)
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
