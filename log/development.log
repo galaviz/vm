@@ -1736,3 +1736,2906 @@ Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-26 11:00:4
 
 
 Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-26 11:00:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 16:07:48 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (67.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered main/index.html.erb within layouts/application (2820.2ms)
+Completed 200 OK in 3236ms (Views: 3147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:57 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:57 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:58 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-27 16:07:59 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-27 16:08:00 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-27 16:08:01 -0600
+
+
+Started GET "/registration/tipo_de_cliente" for 127.0.0.1 at 2014-11-27 16:08:05 -0600
+Processing by RegistrationController#tipo_de_cliente as HTML
+  Rendered registration/tipo_de_cliente.html.erb within layouts/registration (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (3.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 2010ms (Views: 2009.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:08 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/axfont.ttf" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-27 16:08:09 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-27 16:08:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-27 16:08:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-27 16:08:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-27 16:08:10 -0600
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-27 16:08:11 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-27 16:08:11 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 57ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (83.0ms)
+
+
+Started GET "/registration/assets/img/favicon.png" for 127.0.0.1 at 2014-11-27 16:08:18 -0600
+
+ActionController::RoutingError (No route matches [GET] "/registration/assets/img/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  c:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (264.0ms)
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (575.0ms)
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-27 16:08:42 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-27 16:08:42 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 25ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (100.0ms)
+
+
+Started GET "/main/login?email=sd&passwordinput=[FILTERED]&signin=" for 127.0.0.1 at 2014-11-27 16:09:05 -0600
+Processing by MainController#login as HTML
+  Parameters: {"email"=>"sd", "passwordinput"=>"[FILTERED]", "signin"=>""}
+Completed 500 Internal Server Error in 13ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/main_controller.rb:11:in `login'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.0ms)
+
+
+Started GET "/main/login?email=galavizcastro%40gmail.com&passwordinput=[FILTERED]&signin=" for 127.0.0.1 at 2014-11-27 16:09:22 -0600
+Processing by MainController#login as HTML
+  Parameters: {"email"=>"galavizcastro@gmail.com", "passwordinput"=>"[FILTERED]", "signin"=>""}
+Completed 500 Internal Server Error in 14ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/main_controller.rb:11:in `login'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 16:24:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (38.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered main/index.html.erb within layouts/application (1713.1ms)
+Completed 200 OK in 2106ms (Views: 2023.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:24 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:24 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:25 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-27 16:24:26 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-27 16:24:27 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-27 16:24:27 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-27 16:24:27 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-27 16:24:27 -0600
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-27 16:55:53 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 257ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-27 16:55:55 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 77ms
+
+SyntaxError (c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+c:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered c:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (132.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 10:33:48 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (185.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered main/index.html.erb within layouts/application (2028.1ms)
+Completed 200 OK in 2525ms (Views: 2410.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:56 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:56 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:56 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:56 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:57 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:58 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:58 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:58 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 10:33:58 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 10:33:58 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-28 10:33:58 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-28 10:33:59 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-28 10:34:00 -0600
+
+
+Started GET "/registration/tipo_de_cliente" for 127.0.0.1 at 2014-11-28 10:34:03 -0600
+Processing by RegistrationController#tipo_de_cliente as HTML
+  Rendered registration/tipo_de_cliente.html.erb within layouts/registration (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (2.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 1366ms (Views: 1364.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:04 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 10:34:05 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:06 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/axfont.ttf" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 10:34:07 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 10:34:08 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 10:34:08 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 10:34:08 -0600
+
+
+Started GET "/registration/assets/img/favicon.png" for 127.0.0.1 at 2014-11-28 10:34:09 -0600
+
+ActionController::RoutingError (No route matches [GET] "/registration/assets/img/favicon.png"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (104.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (415.0ms)
+
+
+Started GET "/registration/begin_registration?is_residential=true" for 127.0.0.1 at 2014-11-28 10:34:09 -0600
+Processing by RegistrationController#begin_registration as HTML
+  Parameters: {"is_residential"=>"true"}
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-28 10:34:09 -0600
+Processing by RegistrationController#user_info as HTML
+Completed 500 Internal Server Error in 28ms
+
+SyntaxError (C:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+C:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+C:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/registration_controller.rb:17:in `user_info'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (71.0ms)
+
+
+Started GET "/registration/tipo_de_cliente" for 127.0.0.1 at 2014-11-28 10:37:33 -0600
+Processing by RegistrationController#tipo_de_cliente as HTML
+  Rendered registration/tipo_de_cliente.html.erb within layouts/registration (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 123ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:33 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:34 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 10:37:35 -0600
+
+
+Started GET "/main/login?Email=galaviz%40hotmail.com&passwordinput=[FILTERED]&signin=" for 127.0.0.1 at 2014-11-28 10:37:49 -0600
+Processing by MainController#login as HTML
+  Parameters: {"Email"=>"galaviz@hotmail.com", "passwordinput"=>"[FILTERED]", "signin"=>""}
+Completed 500 Internal Server Error in 19ms
+
+SyntaxError (C:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+C:/Sites/curso_ruby/vm/app/models/user.rb:67: invalid multibyte char (US-ASCII)
+C:/Sites/curso_ruby/vm/app/models/user.rb:67: syntax error, unexpected $end, expecting tASSOC
+...  @LIMITES_CONSUMO = { "Pequeño" => 850, "Mediano" => 450, ...
+...                               ^):
+  app/controllers/main_controller.rb:11:in `login'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (75.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 11:30:52 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (234.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (2.0ms)
+  Rendered main/index.html.erb within layouts/application (2717.2ms)
+Completed 200 OK in 3496ms (Views: 3411.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:00 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:00 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:01 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:02 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:02 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:02 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:02 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-28 11:31:03 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-28 11:31:04 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-28 11:31:05 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-28 11:31:05 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-28 11:31:05 -0600
+
+
+Started GET "/main/login?email=galaviz%40yo.com&passwordinput=[FILTERED]&signin=" for 127.0.0.1 at 2014-11-28 11:31:34 -0600
+Processing by MainController#login as HTML
+  Parameters: {"email"=>"galaviz@yo.com", "passwordinput"=>"[FILTERED]", "signin"=>""}
+  [1m[35mUser Load (257.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'galaviz@yo.com' LIMIT 1
+Redirected to http://localhost:3000/dashboard/monitoreo
+Completed 302 Found in 441ms (ActiveRecord: 285.0ms)
+
+
+Started GET "/dashboard/monitoreo" for 127.0.0.1 at 2014-11-28 11:31:35 -0600
+Processing by DashboardController#monitoreo as HTML
+  Rendered shared/_dashboard_navbar.html.erb (8.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered dashboard/monitoreo.html.erb within layouts/application (726.0ms)
+Completed 200 OK in 761ms (Views: 758.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:36 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:36 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/client-portal.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:37 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:38 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:31:38 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:31:38 -0600
+
+
+Started GET "/dashboard/pay_it_forward" for 127.0.0.1 at 2014-11-28 11:35:34 -0600
+Processing by DashboardController#pay_it_forward as HTML
+Completed 500 Internal Server Error in 193ms
+
+NoMethodError (undefined method `<=' for nil:NilClass):
+  app/models/user.rb:36:in `user_tier'
+  app/controllers/dashboard_controller.rb:155:in `pay_it_forward'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (316.0ms)
+
+
+Started GET "/dashboard/fundacion" for 127.0.0.1 at 2014-11-28 11:35:41 -0600
+Processing by DashboardController#fundacion as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `<=' for nil:NilClass):
+  app/models/user.rb:36:in `user_tier'
+  app/controllers/dashboard_controller.rb:116:in `fundacion'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (174.0ms)
+
+
+Started GET "/dashboard/monitoreo" for 127.0.0.1 at 2014-11-28 11:37:53 -0600
+Processing by DashboardController#monitoreo as HTML
+  Rendered shared/_dashboard_navbar.html.erb (4.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+  Rendered dashboard/monitoreo.html.erb within layouts/application (113.0ms)
+Completed 200 OK in 157ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:54 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:37:55 -0600
+
+
+Started GET "/dashboard/puntos" for 127.0.0.1 at 2014-11-28 11:37:57 -0600
+Processing by DashboardController#puntos as HTML
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `<=' for nil:NilClass):
+  app/models/user.rb:36:in `user_tier'
+  app/controllers/dashboard_controller.rb:105:in `puntos'
+
+
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (371.0ms)
+
+
+Started GET "/main/logout" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+Processing by MainController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered main/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 88ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:08 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-28 11:38:09 -0600
+
+
+Started GET "/registration/begin_registration" for 127.0.0.1 at 2014-11-28 11:38:15 -0600
+Processing by RegistrationController#begin_registration as HTML
+Redirected to http://localhost:3000/registration/user_info
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/user_info" for 127.0.0.1 at 2014-11-28 11:38:16 -0600
+Processing by RegistrationController#user_info as HTML
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (60.0ms)[0m  INSERT INTO "users" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"  [["created_at", Fri, 28 Nov 2014 17:38:16 UTC +00:00], ["updated_at", Fri, 28 Nov 2014 17:38:16 UTC +00:00]]
+  [1m[36m (24.0ms)[0m  [1mCOMMIT[0m
+  Rendered registration/user_info.html.erb within layouts/registration (3.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (2.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 1830ms (Views: 1702.1ms | ActiveRecord: 86.0ms)
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:18 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:19 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/axfont.ttf" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:20 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:21 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:21 -0600
+
+
+Started GET "/registration/post_user_info?empresa=keep&nombre=lauro&apellido=galaviz&email=galaviz%40galaviz.com&telefono=%28456%29+789-0+++&celular=%28567%29+890-++++&pais=M%C3%A9xico&estado=Nuevo+Le%C3%B3n&municipio=Monterrey&calle=fghjkl%C3%B1&numero=5678&colonia=vbnm&codigo-postal=56789" for 127.0.0.1 at 2014-11-28 11:38:50 -0600
+Processing by RegistrationController#post_user_info as HTML
+  Parameters: {"empresa"=>"keep", "nombre"=>"lauro", "apellido"=>"galaviz", "email"=>"galaviz@galaviz.com", "telefono"=>"(456) 789-0   ", "celular"=>"(567) 890-    ", "pais"=>"México", "estado"=>"Nuevo León", "municipio"=>"Monterrey", "calle"=>"fghjklñ", "numero"=>"5678", "colonia"=>"vbnm", "codigo-postal"=>"56789"}
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  UPDATE "users" SET "empresa" = $1, "nombre" = $2, "apellido" = $3, "email" = $4, "telefono" = $5, "celular" = $6, "estado" = $7, "municipio" = $8, "calle" = $9, "numero_direccion" = $10, "colonia" = $11, "codigo_postal" = $12, "updated_at" = $13 WHERE "users"."id" = 3  [["empresa", "keep"], ["nombre", "lauro"], ["apellido", "galaviz"], ["email", "galaviz@galaviz.com"], ["telefono", "(456) 789-0   "], ["celular", "(567) 890-    "], ["estado", "Nuevo León"], ["municipio", "Monterrey"], ["calle", "fghjklñ"], ["numero_direccion", 5678], ["colonia", "vbnm"], ["codigo_postal", "56789"], ["updated_at", Fri, 28 Nov 2014 17:38:50 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/registration/energy_info
+Completed 302 Found in 35ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/registration/energy_info" for 127.0.0.1 at 2014-11-28 11:38:50 -0600
+Processing by RegistrationController#energy_info as HTML
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered registration/energy_info.html.erb within layouts/registration (9.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 189ms (Views: 180.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:50 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:51 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-28 11:38:52 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:38:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:38:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:38:53 -0600
+
+
+Started GET "/registration/post_energy_info?rpu=376+780500123&tarifa=OM&cargo-fijo=78.4&energia=2564.93&Enero=&Enero=&Febrero=&Febrero=&Marzo=&Marzo=&Abril=&Abril=&Abril+%282%29=&Abril+%282%29=&Mayo=&Mayo=&Junio=&Junio=&Julio=&Julio=&Agosto=&Agosto=&Setiembre=&Setiembre=&Octubre=&Octubre=&Octubre+%282%29=&Octubre+%282%29=&Noviembre=&Noviembre=&Diciembre=&Diciembre=&consumo-total=13110&import-total=52834" for 127.0.0.1 at 2014-11-28 11:39:35 -0600
+Processing by RegistrationController#post_energy_info as HTML
+  Parameters: {"rpu"=>"376 780500123", "tarifa"=>"OM", "cargo-fijo"=>"78.4", "energia"=>"2564.93", "Enero"=>"", "Febrero"=>"", "Marzo"=>"", "Abril"=>"", "Abril (2)"=>"", "Mayo"=>"", "Junio"=>"", "Julio"=>"", "Agosto"=>"", "Setiembre"=>"", "Octubre"=>"", "Octubre (2)"=>"", "Noviembre"=>"", "Diciembre"=>"", "consumo-total"=>"13110", "import-total"=>"52834"}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE "users" SET "rpu" = $1, "energia" = $2, "cargo_fijo" = $3, "consumo_total" = $4, "importe_total" = $5, "updated_at" = $6 WHERE "users"."id" = 3[0m  [["rpu", "376 780500123"], ["energia", 2564.93], ["cargo_fijo", 78.4], ["consumo_total", 13110.0], ["importe_total", 52834.0], ["updated_at", Fri, 28 Nov 2014 17:39:36 UTC +00:00]]
+  [1m[35m (67.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/registration/propuesta
+Completed 302 Found in 97ms (ActiveRecord: 72.0ms)
+
+
+Started GET "/registration/propuesta" for 127.0.0.1 at 2014-11-28 11:39:36 -0600
+Processing by RegistrationController#propuesta as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered registration/propuesta.html.erb within layouts/registration (47.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 225ms (Views: 217.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:36 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:36 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:36 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:36 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:36 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:37 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:38 -0600
+
+
+Started GET "/registration/post_propuesta?25=" for 127.0.0.1 at 2014-11-28 11:39:40 -0600
+Processing by RegistrationController#post_propuesta as HTML
+  Parameters: {"25"=>""}
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (3.0ms)[0m  UPDATE "users" SET "tipo_membresia" = $1, "updated_at" = $2 WHERE "users"."id" = 3  [["tipo_membresia", "25"], ["updated_at", Fri, 28 Nov 2014 17:39:40 UTC +00:00]]
+  [1m[36m (5.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/registration/fecha_visita
+Completed 302 Found in 30ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/registration/fecha_visita" for 127.0.0.1 at 2014-11-28 11:39:40 -0600
+Processing by RegistrationController#fecha_visita as HTML
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered registration/fecha_visita.html.erb within layouts/registration (4.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 240ms (Views: 231.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:41 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:39:42 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:39:43 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:43 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:43 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:43 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:43 -0600
+
+
+Started GET "/registration/post_fecha_visita?fecha-visita=28+Noviembre%2C+2014&hora-visita=12%3A30+PM" for 127.0.0.1 at 2014-11-28 11:39:50 -0600
+Processing by RegistrationController#post_fecha_visita as HTML
+  Parameters: {"fecha-visita"=>"28 Noviembre, 2014", "hora-visita"=>"12:30 PM"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE "users" SET "fecha_visita" = $1, "hora_visita" = $2, "updated_at" = $3 WHERE "users"."id" = 3[0m  [["fecha_visita", "28 Noviembre, 2014"], ["hora_visita", "12:30 PM"], ["updated_at", Fri, 28 Nov 2014 17:39:50 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/registration/forma_pago
+Completed 302 Found in 22ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/registration/forma_pago" for 127.0.0.1 at 2014-11-28 11:39:50 -0600
+Processing by RegistrationController#forma_pago as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (3.0ms)[0m  [1mUPDATE "users" SET "total_a_pagar" = $1, "updated_at" = $2 WHERE "users"."id" = 3[0m  [["total_a_pagar", 5047.785153892576], ["updated_at", Fri, 28 Nov 2014 17:39:51 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  Rendered registration/forma_pago.html.erb within layouts/registration (5.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 231ms (Views: 208.0ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:51 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:52 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:39:53 -0600
+
+
+Started GET "/registration/post_forma_pago?payment-selection=Pago+de+Contado" for 127.0.0.1 at 2014-11-28 11:39:55 -0600
+Processing by RegistrationController#post_forma_pago as HTML
+  Parameters: {"payment-selection"=>"Pago de Contado"}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE "users" SET "forma_pago" = $1, "updated_at" = $2 WHERE "users"."id" = 3[0m  [["forma_pago", "Pago de Contado"], ["updated_at", Fri, 28 Nov 2014 17:39:55 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/registration/confirmation
+Completed 302 Found in 24ms (ActiveRecord: 6.0ms)
+
+
+Started GET "/registration/confirmation" for 127.0.0.1 at 2014-11-28 11:39:55 -0600
+Processing by RegistrationController#confirmation as HTML
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  Rendered registration/confirmation.html.erb within layouts/registration (148.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_footer.html.erb (1.0ms)
+Completed 200 OK in 304ms (Views: 296.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:56 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/pdfmake.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:57 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:39:58 -0600
+
+
+Started GET "/registration/post_confirmation" for 127.0.0.1 at 2014-11-28 11:40:07 -0600
+Processing by RegistrationController#post_confirmation as HTML
+Redirected to http://localhost:3000/registration/welcome
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/registration/welcome" for 127.0.0.1 at 2014-11-28 11:40:07 -0600
+Processing by RegistrationController#welcome as HTML
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1
+  Rendered registration/welcome.html.erb within layouts/registration (2.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (0.0ms)
+  Rendered shared/_donde_lo_encuentro.html.erb (1.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+Completed 200 OK in 190ms (Views: 183.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/axfont.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/formsStyle.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/formsResponsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/pickadate/classic.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/pickadate/classic.date.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/pickadate/classic.time.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:08 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/jspdf.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/myFormatter.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/picker.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:09 -0600
+
+
+Started GET "/assets/picker.time.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/picker.date.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/vfs_fonts.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_RPU_Example.jpg" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Electricity_Rate_Example.jpg" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Consumption_Summary.jpg" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Fixed_Charge_Example.jpg" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/assets/Energy_Bill_Examples/Residential/Residential_Energy_Subtotal_Example.jpg" for 127.0.0.1 at 2014-11-28 11:40:10 -0600
+
+
+Started GET "/registration/post_registration?account-password=[FILTERED]&account-password-confirm=[FILTERED]" for 127.0.0.1 at 2014-11-28 11:40:38 -0600
+Processing by RegistrationController#post_registration as HTML
+  Parameters: {"account-password"=>"[FILTERED]", "account-password-confirm"=>"[FILTERED]"}
+  [1m[36mUser Load (3.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 3 LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36mSQL (3.0ms)[0m  [1mUPDATE "users" SET "clave_referencia" = $1, "creditos_vm" = $2, "puntos_vm" = $3, "updated_at" = $4 WHERE "users"."id" = 3[0m  [["clave_referencia", "lGAL001"], ["creditos_vm", 100], ["puntos_vm", 100], ["updated_at", Fri, 28 Nov 2014 17:40:38 UTC +00:00]]
+  [1m[35m (1.0ms)[0m  COMMIT
+  Rendered user_mailer/send_welcome_email.html.erb (7.0ms)
+
+Sent mail to admin@verdemonarca.com (12186.7ms)
+Date: Fri, 28 Nov 2014 11:40:39 -0600
+From: energymonitoring@verdemonarca.com
+To: admin@verdemonarca.com
+Message-ID: <5478b396e00e6_12641c40f94765a3@L-LGALAVIZ.mail>
+Subject: Usuario se ha registrado a verdemonarca
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"item" id=3D"user-confirmation">
+    <div class=3D"body-wrapper">
+      <div class=3D"container">
+          <div class=3D"row">
+              <div class=3D"col-md-12 col-sm-12 animated" data-animtype=3D=
+"flipInY"
+                   data-animrepeat=3D"0"
+                   data-speed=3D"1s"
+                   data-delay=3D"0.5s">
+                  <h2 class=3D"h2-section-title">Confirmaci=C3=B3n de Inf=
+ormaci=C3=B3n</h2>
+
+                  <div class=3D"i-section-title">
+                      <i class=3D"icon-users-outline">
+
+                      </i>
+                  </div>
+
+                  <div class=3D"space-sep20"></div>
+              </div>
+          </div>
+
+          <div class=3D"row">
+            <div class=3D"col-md-6 col-sm-6 centered">
+                <div class=3D"classic-form">
+                  <h3>Informaci=C3=B3n del Usuario:</h3>
+                  <table align=3D"center" id=3D"user-info-table">
+                    <tr>
+                      <td><h4 style=3D'margin-top:20px;'>Resumen de Usuar=
+io</h4></td><td></td>
+                    </tr>
+                    <tr><td><span class=3D'bold'>Tipo de Membres=C3=ADa:<=
+/span></td><td>25%</td></tr>
+                      <tr><td><span class=3D'bold'>Empresa:</span></td><t=
+d>keep</td></tr>
+                    <tr><td><span class=3D'bold'>Nombre:</span></td><td>l=
+auro</td></tr>
+                    <tr><td><span class=3D'bold'>Apellido:</span></td><td=
+>galaviz</td></tr>
+                    <tr><td><span class=3D'bold'>Email:</span></td><td>ga=
+laviz@galaviz.com</td></tr>
+                    <tr><td><span class=3D'bold'>Telefono:</span></td><td=
+>(456) 789-0   </td></tr>
+                    <tr><td><span class=3D'bold'>Celular:</span></td><td>=
+(567) 890-    </td></tr>
+                    <tr><td><span class=3D'bold'>Estado:</span></td><td>N=
+uevo Le=C3=B3n</td></tr>
+                    <tr><td><span class=3D'bold'>Municipio:</span></td><t=
+d>Monterrey</td></tr>
+                    <tr><td><span class=3D'bold'>Calle:</span></td><td>fg=
+hjkl=C3=B1</td></tr>
+                    <tr><td><span class=3D'bold'>N=C3=BAmero:</span></td>=
+<td>5678</td></tr>
+                    <tr><td><span class=3D'bold'>Colonia:</span></td><td>=
+vbnm</td></tr>
+                    <tr><td><span class=3D'bold'>C=C3=B3digo Postal:</spa=
+n></td><td>56789</td></tr>
+                    <tr><td><span class=3D'bold'>Clave Referencia:</span>=
+</td><td>lGAL001</td></tr>
+
+                    <tr>
+                      <td><h4 style=3D'margin-top:20px;'>Resumen Energ=C3=
+=A9tico</h4></td><td></td>
+                    </tr>
+                    <tr><td><span class=3D'bold'>RPU:</span></td><td>376 =
+780500123</td></tr>
+                    <tr><td><span class=3D'bold'>Tarifa:</span></td><td><=
+/td></tr>
+                    <tr><td><span class=3D'bold'>Consumo Anual (kWh):</sp=
+an></td><td>13110.0</td></tr>
+                    <tr><td><span class=3D'bold'>Importe Anual:</span></t=
+d><td>52834.0</td></tr>
+                    <tr><td><span class=3D'bold'>Cargo Fijo:</span></td><=
+td>78.4</td></tr>
+                    <tr><td><span class=3D'bold'>Energ=C3=ADa:</span></td=
+><td>2564.93</td></tr>
+
+
+                    <tr>
+                      <td><h4 style=3D'margin-top:20px;'>Resumen de Propu=
+esta</h4></td><td></td>
+                    </tr>
+                    <tr><td><span class=3D'bold'>Tama=C3=B1o:</span></td>=
+<td>2.0 kWp</td></tr>
+                    <tr><td><span class=3D'bold'>Producci=C3=B3n Anual (E=
+stimada):</span></td><td>3,278 kWh</td></tr>
+                    <tr><td><span class=3D'bold'>Ahorro Econ=C3=B3mico:</=
+span></td><td>$12,804.77 MN</td></tr>
+                    <tr><td><span class=3D'bold'>Payback (A=C3=B1os):</sp=
+an></td><td>7.0</td></tr>
+                    <tr><td><span class=3D'bold'>TIR:</span></td><td>14.8=
+%</td></tr>
+                    <tr><td><span class=3D'bold'>Total:</span></td><td>$5=
+,047.79 USD</td></tr>
+                    <tr>
+                      <td><h4 style=3D'margin-top:20px;'>Resumen de Visit=
+a y Pago</h4></td><td></td>
+                    </tr>
+                    <tr><td><span class=3D'bold'>Fecha de Visita:</span><=
+/td><td>28 Noviembre, 2014</td></tr>
+                    <tr><td><span class=3D'bold'>Hora de Visita:</span></=
+td><td>12:30 PM</td></tr>
+                    <tr><td><span class=3D'bold'>Modo de Pago:</span></td=
+><td>Pago de Contado</td></tr>
+                  </table>
+                  <br>
+                  <br>
+                </div>
+            </div>
+          </div> <!-- /row -->
+      </div> <!-- /container -->
+  </div> <!-- /wrapper-->
+
+
+</div>
+
+Redirected to http://localhost:3000/dashboard/monitoreo
+Completed 302 Found in 12927ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/dashboard/monitoreo" for 127.0.0.1 at 2014-11-28 11:40:51 -0600
+Processing by DashboardController#monitoreo as HTML
+  Rendered shared/_dashboard_navbar.html.erb (6.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered dashboard/monitoreo.html.erb within layouts/application (82.0ms)
+Completed 200 OK in 122ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:51 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:51 -0600
+
+
+Started GET "/assets/client-portal.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:51 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:51 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:40:52 -0600
+
+
+Started GET "/main/logout" for 127.0.0.1 at 2014-11-28 11:45:21 -0600
+Processing by MainController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 11:45:21 -0600
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered main/index.html.erb within layouts/application (56.0ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:22 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-28 11:45:23 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-28 11:45:24 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-28 11:45:24 -0600
+
+
+Started GET "/main/login?email=galaviz%40galaviz.com&passwordinput=[FILTERED]&signin=" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+Processing by MainController#login as HTML
+  Parameters: {"email"=>"galaviz@galaviz.com", "passwordinput"=>"[FILTERED]", "signin"=>""}
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'galaviz@galaviz.com' LIMIT 1[0m
+Redirected to http://localhost:3000/dashboard/monitoreo
+Completed 302 Found in 10ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/dashboard/monitoreo" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+Processing by DashboardController#monitoreo as HTML
+  Rendered shared/_dashboard_navbar.html.erb (5.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered dashboard/monitoreo.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 94ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+
+
+Started GET "/assets/client-portal.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:42 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:43 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:45:44 -0600
+
+
+Started GET "/main/logout" for 127.0.0.1 at 2014-11-28 11:45:45 -0600
+Processing by MainController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered main/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/solar_panel_sunlight_mountain.jpg" for 127.0.0.1 at 2014-11-28 11:45:46 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/assets/Solar_Panels_HD_1.jpg" for 127.0.0.1 at 2014-11-28 11:45:47 -0600
+
+
+Started GET "/main/login?email=asd&passwordinput=[FILTERED]&signin=" for 127.0.0.1 at 2014-11-28 11:45:55 -0600
+Processing by MainController#login as HTML
+  Parameters: {"email"=>"asd", "passwordinput"=>"[FILTERED]", "signin"=>""}
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'asd' LIMIT 1
+Redirected to http://localhost:3000/dashboard/monitoreo
+Completed 302 Found in 8ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/dashboard/monitoreo" for 127.0.0.1 at 2014-11-28 11:45:55 -0600
+Processing by DashboardController#monitoreo as HTML
+  Rendered shared/_dashboard_navbar.html.erb (5.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered dashboard/monitoreo.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 112ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/client-portal.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:56 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/jquery.formatter.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/legacy.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:45:57 -0600
+
+
+Started GET "/main/logout" for 127.0.0.1 at 2014-11-28 11:45:59 -0600
+Processing by MainController#logout as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-28 11:45:59 -0600
+Processing by MainController#index as HTML
+  Rendered shared/_footer.html.erb (0.0ms)
+  Rendered main/index.html.erb within layouts/application (98.0ms)
+Completed 200 OK in 145ms (Views: 144.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-28 11:45:59 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:59 -0600
+
+
+Started GET "/assets/animate.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:45:59 -0600
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/responsive.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/colorpickr.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/linecons.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/social-icons.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.css?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/modernizr.custom.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/detectmobilebrowser.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/smoothscroll.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/bootstrapValidator.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/jquery.inview.min.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/animations.js?body=1" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/Logo_Verde_Monarca.png" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/experts.jpg" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/hammock.svg" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/Mexico.jpg" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/s2e.jpg" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/fonlin.png" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/dollar.svg" for 127.0.0.1 at 2014-11-28 11:46:00 -0600
+
+
+Started GET "/assets/renewable_energy.svg" for 127.0.0.1 at 2014-11-28 11:46:01 -0600
+
+
+Started GET "/assets/Residential_Solar.jpg" for 127.0.0.1 at 2014-11-28 11:46:01 -0600
+
+
+Started GET "/assets/Solar_City_Skyline.jpg" for 127.0.0.1 at 2014-11-28 11:46:01 -0600
